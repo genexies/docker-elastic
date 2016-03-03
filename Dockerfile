@@ -11,4 +11,4 @@ RUN bin/plugin install xyu/elasticsearch-whatson
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
 # Same default parameter to parent's entry-point
-CMD ["elasticsearch", "-Xmx16g", "-Xms16g"]
+CMD ["elasticsearch", "--Xmx16g", "--Xms16g"]

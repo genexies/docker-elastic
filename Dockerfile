@@ -2,7 +2,7 @@ FROM elasticsearch:2.2
 
 MAINTAINER Javier Jerónimo <jcjeronimo@genexies.net>
 
-ENVIRONMENT ES_HEAP_SIZE=
+ENV ES_HEAP_SIZE=
 
 WORKDIR /usr/share/elasticsearch
 

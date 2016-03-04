@@ -6,5 +6,5 @@ Just:
 
 Run:
 ```
-docker run -d -p 9200:9200 -p 9300:9300 -E ES_HEAP_SIZE=16g genexies/elastic:1
+docker run -d -p 9200:9200 -p 9300:9300 -E ES_HEAP_SIZE=16g genexies/elastic
 ```

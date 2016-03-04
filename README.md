@@ -1,3 +1,6 @@
+# docker-elastic
+
+[![](https://badge.imagelayers.io/genexies/elastic:latest.svg)](https://imagelayers.io/?images=genexies/elastic:latest 'Get your own badge on imagelayers.io')
 
 FROM elasticsearch:2.2
 

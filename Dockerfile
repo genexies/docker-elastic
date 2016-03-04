@@ -9,6 +9,7 @@ WORKDIR /usr/share/elasticsearch
 RUN bin/plugin install royrusso/elasticsearch-HQ
 RUN bin/plugin install mobz/elasticsearch-head
 RUN bin/plugin install xyu/elasticsearch-whatson
+RUN bin/plugin install cloud-aws
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 

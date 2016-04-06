@@ -1,4 +1,4 @@
-FROM elasticsearch:2.2
+FROM elasticsearch:2.3
 
 MAINTAINER Javier Jerónimo <jcjeronimo@genexies.net>
 

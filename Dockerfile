@@ -11,7 +11,9 @@ RUN bin/plugin install mobz/elasticsearch-head
 RUN bin/plugin install xyu/elasticsearch-whatson
 RUN bin/plugin install cloud-aws
 
-ENTRYPOINT ["/docker-entrypoint.sh"]
+COPY gnx-entrypoint.sh /gnx-entrypoint.sh
+RUN chmod u+x /gnx-entrypoint.sh
 
 # Same default parameter to parent's entry-point
+ENTRYPOINT ["/gnx-entrypoint.sh"]
 CMD ["elasticsearch"]
